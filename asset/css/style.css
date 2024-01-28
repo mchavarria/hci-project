@@ -1,0 +1,57 @@
+/* CSS styles for dark mode */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #1f1f1f;
+}
+.logo {
+    max-width: 100px;
+}
+.search-container {
+    text-align: center;
+    margin-top: 50px;
+}
+.search-input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #333;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #444;
+    color: #ffffff;
+    cursor: pointer;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icon {
+    margin: 0 10px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
