@@ -1,0 +1,109 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header img {
+    max-width: 100px;
+    height: auto;
+  }
+
+  .language-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .language-flag {
+    width: 30px;
+    height: 20px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .search-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    color: #333;
+    background-color: #ffffff;
+  }
+
+  .search-icon {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+
+  .icons-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .icon {
+    margin: 0 10px;
+  }
+
+  .icon svg {
+    width: 100%; /* Make the SVG responsive to its container */
+    max-width: 64px; /* Set a maximum width */
+    max-height: 64px; /* Set a maximum width */
+    height: auto;
+  }
+
+  /* Icons in the item results */
+  .item-icons-container {
+    display: flex;
+    justify-content: left;
+  }
+
+
+  .item-icon {
+    margin: 0 10px;
+}
+
+.item-icon svg {
+    width: 100%; /* Make the SVG responsive to its container */
+    max-height: 24px; /* Set a maximum width */
+}
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

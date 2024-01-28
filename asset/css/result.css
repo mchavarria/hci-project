@@ -1,31 +1,18 @@
 
     /* CSS styles for dark mode */
-    body {
-        background-color: #121212;
-        color: #ffffff;
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      .navbar {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 15px;
-        background-color: #1f1f1f;
-      }
-      .logo {
-        max-width: 100px;
-      }
       .movie-results {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 50px;
+        margin: 20px;
       }
       .movie-image {
         position: relative;
         margin-right: 20px;
+      }
+      .movie-image img {
+        height: 100%;
       }
       .play-button {
         position: absolute;
@@ -50,6 +37,8 @@
       }
       .movie-title {
         font-size: 24px;
+        text-align: left;
+        margin-left: 5px;
         margin-bottom: 10px;
       }
       .service-icons {
@@ -58,7 +47,15 @@
       }
       .service-icon {
         margin-right: 10px;
+        margin: 0 5px;
       }
       .movie-description {
-        line-height: 1.5;
+        line-height: 1.2;
+        text-align: left;
+        font-size: 12px;
+        margin: 5px;
+      }
+
+      .service-icon {
+        cursor: pointer;
       }
