@@ -28,5 +28,6 @@ function searchMovie() {
     }
 
     // redirect to the other page
-    window.location.href = window.location.origin + '/' + page + '.html';
+    let path = window.location.host.includes('github') ? '/hci-project/' : '/';
+    window.location.href = window.location.origin + path + page + '.html';
 }
