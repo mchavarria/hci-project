@@ -4,5 +4,8 @@ function changeLanguage(languageCode) {
 }
 
 function homePage() {
-    window.location.href = window.location.origin + '/index.html';
+
+    // redirect to the other page
+    let path = window.location.host.includes('github') ? '/hci-project/' : '/';
+    window.location.href = window.location.origin + path + '/index.html';
 }
